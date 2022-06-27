@@ -1,17 +1,15 @@
-// let arr = [1, 2, 8, 4, 9, 6, 7];
-// arr.sort(compaer);
+let arr = [1, 2, 8, 4, 9, 6, 7];
+arr.sort((a, b) => a - b);
 
-// console.log(arr);
+console.log(arr);
 
-// function compaer(a,b) { 
+// function compaer(a,b) {
 //     return a-b;
 // }
-
 
 // `for(let i = 0; i<arr.length; i++){
 //     console.log(arr[i]);
 // }
-
 
 // for(let value of arr){
 //     console.log(value);
